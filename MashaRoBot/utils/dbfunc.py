@@ -1,4 +1,4 @@
-from MashaRobot import db
+from MashaRoBot import db
 from typing import Dict, List, Union
 
 
