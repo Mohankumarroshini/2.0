@@ -6,9 +6,9 @@ import glob
 import time
 import requests
 
-from TGNRobot.events import register
-from TGNRobot import OWNER_ID
-from TGNRobot import telethn as tbot
+from MashaRoBot.events import register
+from MashaRoBot import OWNER_ID
+from MashaRoBot import telethn as tbot
 from PIL import Image, ImageDraw, ImageFont
 from telethon.tl.types import InputMessagesFilterPhotos
 from io import BytesIO
@@ -288,12 +288,12 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="white", stroke_width=1, stroke_fill="black")
     fname="Logo_By_DeCode.png"
     img.save(fname, "png")
-    await tbot.send_file(event.chat_id, file=fname, caption="Made By @DESTROYER_NETWORK")         
+    await tbot.send_file(event.chat_id, file=fname, caption="Made By @Athena_ProBot")         
     await pesan.delete()
     if os.path.exists(fname):
             os.remove(fname)
  except Exception as e:
-    await event.reply(f'Error, Report @Candyqueensupport, {e}')
+    await event.reply(f'Error, Report @Mastro_Support, {e}')
 
 
 
