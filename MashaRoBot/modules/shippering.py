@@ -1,9 +1,12 @@
 
+from MashaRoBot import pbot as app
 
-from ValtAoiTheBot import pbot as app
-from ValtAoiTheBot.utils.dbfunc import get_couple, save_couple
+from MashaRoBot.utils.dbfunc import get_couple, save_couple
+
 from pyrogram import filters
+
 import random
+
 from datetime import datetime
 
 # Date and time
