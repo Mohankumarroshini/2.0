@@ -6,9 +6,9 @@ import glob
 import time
 import requests
 
-from TGNRobot.events import register
-from TGNRobot import OWNER_ID
-from TGNRobot import telethn as tbot
+from MashaRoBot.events import register
+from MashaRoBot import OWNER_ID
+from MashaRoBot import telethn as tbot
 from PIL import Image, ImageDraw, ImageFont
 from telethon.tl.types import InputMessagesFilterPhotos
 from io import BytesIO
@@ -308,5 +308,5 @@ file_helpo = file_help.replace("_", " ")
 __help__ = """
  🔹 `/logo` <text> :  Create your logo with your name
  """
-__mod_name__ = "Logo "
+__mod_name__ = "Logo™️ "
  
