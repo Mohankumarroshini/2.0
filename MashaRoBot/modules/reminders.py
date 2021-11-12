@@ -3,7 +3,7 @@ MIT License
 
 Copyright (C) 2021 @notRyuk
 
-This file is part of @Cutiepii_Robot (Telegram Bot)
+This file is part of @Athena_ProBot (Telegram Bot)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -33,8 +33,8 @@ from telegram.ext.callbackcontext import CallbackContext
 from telegram.ext.filters import Filters
 from telegram.parsemode import ParseMode
 
-from Cutiepii_Robot import OWNER_ID, updater, dispatcher
-from Cutiepii_Robot.modules.disable import DisableAbleCommandHandler
+from MashaRoBot import OWNER_ID, updater, dispatcher
+from MashaRoBot.modules.disable import DisableAbleCommandHandler
 
 
 job_queue = updater.job_queue
