@@ -328,8 +328,12 @@ else:
 
         LOGGER.warning("Can't connect to SpamWatch!")
 # MongoDB client
-mongo_client = MongoClient(MONGO_DB_URI)
-db = mongo_client.MashaRobot
+print("[Athena]: Connecting To Mongo • Data Center • India • MongoDB Database")
+MONGO_DB = "Masha"
+mongodb = MongoClient(MONGO_DB_URL, 27017)[MONGO_DB]
+motor = motor_asyncio.AsyncIOMotorClient(MONGO_DB_URL)
+db = motor[MONGO_DB]
+engine = AIOEngine(motor, MONGO_DB)
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 
