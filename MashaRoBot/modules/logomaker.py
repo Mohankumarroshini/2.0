@@ -276,7 +276,7 @@ async def lego(event):
     pointsize = 500
     fillcolor = "black"
     shadowcolor = "blue"
-    fnt = glob.glob("./TGNRobot/resources/*")
+    fnt = glob.glob("./MashaRoBot/resources/*")
     randf = random.choice(fnt)
     font = ImageFont.truetype(randf, 120)
     w, h = draw.textsize(text, font=font)
@@ -293,7 +293,7 @@ async def lego(event):
     if os.path.exists(fname):
             os.remove(fname)
  except Exception as e:
-    await event.reply(f'Error, Report @Candyqueensupport, {e}')
+    await event.reply(f'Error, Report @Mastro_Support, {e}')
 
 
 
