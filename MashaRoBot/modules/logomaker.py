@@ -288,7 +288,7 @@ async def lego(event):
     draw.text((x, y), text, font=font, fill="white", stroke_width=1, stroke_fill="black")
     fname="Logo_By_DeCode.png"
     img.save(fname, "png")
-    await tbot.send_file(event.chat_id, file=fname, caption="Made By @DESTROYER_NETWORK")         
+    await tbot.send_file(event.chat_id, file=fname, caption="Made By @Athena_ProBot")         
     await pesan.delete()
     if os.path.exists(fname):
             os.remove(fname)
