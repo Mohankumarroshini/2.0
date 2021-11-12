@@ -325,6 +325,9 @@ else:
         sw = None
 
         LOGGER.warning("Can't connect to SpamWatch!")
+# MongoDB client
+mongo_client = MongoClient(MONGO_DB_URI)
+db = mongo_client.MashaRobot
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 
