@@ -4,7 +4,7 @@ import time
 from typing import List
 
 from telegram import Bot, Update, ParseMode
-from telegram.ext import run_async
+from telegram.ext import run_async,CallbackContext
 
 from MashaRoBot import dispatcher
 from MashaRoBot.modules.disable import DisableAbleCommandHandler
