@@ -5,7 +5,7 @@ Copyright (C) 2017-2019, Paul Larsen
 Copyright (C) 2021 Awesome-RJ
 Copyright (c) 2021, Yūki • Black Knights Union, <https://github.com/Awesome-RJ/CutiepiiRobot>
 
-This file is part of @Cutiepii_Robot (Telegram Bot)
+This file is part of @Athena_Probot (Telegram Bot)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -29,8 +29,8 @@ SOFTWARE.
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl import functions, types
 
-from Cutiepii_Robot.events import register as Cutiepii
-from Cutiepii_Robot import telethn, ubot
+from MashaRoBot.events import register as Cutiepii
+from MashaRobot import telethn, ubot
 
 
 async def is_register_admin(chat, user):
