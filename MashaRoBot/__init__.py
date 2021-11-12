@@ -14,6 +14,8 @@ from pyrogram import Client, errors
 
 from telethon import TelegramClient
 
+from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
+
 StartTime = time.time()
 
 # enable logging
