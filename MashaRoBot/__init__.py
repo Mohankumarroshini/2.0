@@ -329,7 +329,7 @@ else:
         LOGGER.warning("Can't connect to SpamWatch!")
 # MongoDB client
 print("[Athena]: Connecting To Mongo • Data Center • India • MongoDB Database")
-MONGO_DB = "Masha"
+MONGO_DB = "masha"
 mongodb = MongoClient(MONGO_DB_URL, 27017)[MONGO_DB]
 motor = motor_asyncio.AsyncIOMotorClient(MONGO_DB_URL)
 db = motor[MONGO_DB]
