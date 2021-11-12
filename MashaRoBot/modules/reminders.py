@@ -238,13 +238,13 @@ __help__ = """
   ➢ `/clearreminder 1234567890123456789`
 """
 
-RemindersHandler = CommandHandler(['reminders', 'myreminders'], reminders, filters = Filters.chat_type.private, run_async=True)
+RemindersHandler = CommandHandler(['reminders', 'myreminders'], reminders, filters = filters.chat_type.private, run_async=True)
 SetReminderHandler = DisableAbleCommandHandler('setreminder', set_reminder, run_async=True)
 ClearReminderHandler = DisableAbleCommandHandler('clearreminder', clear_reminder, run_async=True)
 ClearAllRemindersHandler = CommandHandler(
     'clearallreminders', clear_all_reminders, filters = Filters.chat(OWNER_ID), run_async=True)
 ClearALLMyRemindersHandler = CommandHandler(
-    ['clearmyreminders', 'clearallmyreminders'], clear_all_my_reminders, filters = Filters.chat_type.private, run_async=True)
+    ['clearmyreminders', 'clearallmyreminders'], clear_all_my_reminders, filters = filters.chat_type.private, run_async=True)
 
 dispatcher.add_handler(RemindersHandler)
 dispatcher.add_handler(SetReminderHandler)
