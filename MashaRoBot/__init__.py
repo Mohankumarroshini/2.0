@@ -14,7 +14,9 @@ from pyrogram import Client, errors
 
 from telethon import TelegramClient
 
-from motor.motor_asyncio import AsyncIOMotorClient as MongoClient
+from pymongo import MongoClient
+
+from pymongo.errors import ServerSelectionTimeoutError
 
 StartTime = time.time()
 
@@ -114,7 +116,7 @@ if ENV:
 
     DB_URI = os.environ.get("DATABASE_URL")
 
-    MONGO_DB_URI = os.environ.get("MONGO_DB_URI", None)
+    MONGO_DB_URL = os.environ.get("MONGO_DB_URI", None)
 
     DONATION_LINK = os.environ.get("DONATION_LINK")
 
@@ -242,7 +244,7 @@ else:
 
     DB_URI = Config.SQLALCHEMY_DATABASE_URI
 
-    MONGO_DB_URI = Config.MONGO_DB_URI
+    MONGO_DB_URL = Config.MONGO_DB     
 
     HEROKU_API_KEY = Config.HEROKU_API_KEY
 
@@ -329,9 +331,11 @@ else:
         LOGGER.warning("Can't connect to SpamWatch!")
 # MongoDB client
 print("[INFO]: INITIALIZING DATABASE")
-mongo_client = MongoClient(MONGO_DB_URI)
-db = mongo_client.MashaRobot
-
+MONGO_DB = "masha"
+mongodb = MongoClient(MONGO_DB_URL, 27017)[MONGO_DB]
+motor = motor_asyncio.AsyncIOMotorClient(MONGO_DB_URL)
+db = motor[MONGO_DB]
+engine = AIOEngine(motor, MONGO_DB)
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 
