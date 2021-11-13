@@ -331,7 +331,7 @@ else:
         LOGGER.warning("Can't connect to SpamWatch!")
 # MongoDB client
 print("[INFO]: INITIALIZING DATABASE")
-mongo_client = MongoClient(MONGO_DB_URI)
+
 db = mongo_client.MashaRoBot
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
