@@ -30,7 +30,7 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl import functions, types
 
 from MashaRoBot.events import register as Cutiepii
-from MashaRoBot import telethn as ubot
+from MashaRoBot import telethn, as ubot
 
 
 async def is_register_admin(chat, user):
