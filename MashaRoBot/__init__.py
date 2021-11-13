@@ -331,11 +331,8 @@ else:
         LOGGER.warning("Can't connect to SpamWatch!")
 # MongoDB client
 print("[INFO]: INITIALIZING DATABASE")
-MONGO_DB = "Masha"
-mongodb = MongoClient(MONGO_DB_URL, 27017)[MONGO_DB]
-motor = motor_asyncio.AsyncIOMotorClient(MONGO_DB_URL)
-db = motor[MONGO_DB]
-engine = AIOEngine(motor, MONGO_DB)
+mongo_client = MongoClient(MONGO_DB_URI)
+db = mongo_client.MashaRoBot
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 
