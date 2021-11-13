@@ -77,3 +77,4 @@ nudepy
 motor
 cloudscraper
 gpytranslate
+motor
