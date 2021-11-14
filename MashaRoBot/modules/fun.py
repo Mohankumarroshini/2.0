@@ -398,6 +398,31 @@ def weebify(update: Update, context: CallbackContext):
 
         message.reply_text(string)
 
+@run_async
+
+@typing_action
+
+def goodnight(update, context):
+
+    message = update.effective_message
+
+    reply = random.choice(fun.GDNIGHT)
+
+    message.reply_text(reply, parse_mode=ParseMode.MARKDOWN)
+
+@run_async
+
+@typing_action
+
+def goodmorning(update, context):
+
+    message = update.effective_message
+
+    reply = random.choice(fun.GDMORNING)
+
+    message.reply_text(reply, parse_mode=ParseMode.MARKDOWN)
+
+
 __help__ = """
 
  • `/runs`*:* reply a random string from an array of replies
@@ -471,6 +496,18 @@ LYRICS_HANDLER = DisableAbleCommandHandler("lyrics", lyrics)
 TABLE_HANDLER = DisableAbleCommandHandler("table", table)
 
 WEEBIFY_HANDLER = DisableAbleCommandHandler("weebify", weebify)
+
+GDMORNING_HANDLER = DisableAbleMessageHandler(
+
+    Filters.regex(r"(?i)(gm|good morning)"), goodmorning, friendly="goodmorning"
+
+)
+
+GDNIGHT_HANDLER = DisableAbleMessageHandler(
+
+    Filters.regex(r"(?i)(gn|good night)"), goodnight, friendly="goodnight"
+
+)
 
 dispatcher.add_handler(SANITIZE_HANDLER)
 
