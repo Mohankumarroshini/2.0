@@ -83,7 +83,7 @@ SONG_HANDLER = DisableAbleCommandHandler("song", song)
 
 dispatcher.add_handler(SONG_HANDLER)
 
-__mod_name__ = "Song"
+__mod_name__ = "sᴏɴɢs🎶"
 
 _handlers_ = [
 SONG_HANDLER 
