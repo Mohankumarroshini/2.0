@@ -35,7 +35,7 @@ def nyaa(update: Update, context: CallbackContext):
         user2 = curr_user
 
     nyaa_type = random.choice(("Text", "Gif"))
-    if nyaa_type == "Gif":
+    if nyaa_type == "Gifs":
         try:
             temp = random.choice(nekostrings.NEKO_GIFS)
             reply_to.reply_animation(temp)
