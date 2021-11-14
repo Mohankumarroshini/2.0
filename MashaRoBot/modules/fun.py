@@ -25,18 +25,31 @@ def runs(update: Update, context: CallbackContext):
 
 @run_async
 def sanitize(update: Update, context: CallbackContext):
+
     message = update.effective_message
+
     name = (
+
         message.reply_to_message.from_user.first_name
+
         if message.reply_to_message
+
         else message.from_user.first_name
+
     )
-    reply_animation = (
-        message.reply_to_message.reply_animation
+
+    reply_text = (
+
+        message.reply_to_message.reply_text
+
         if message.reply_to_message
-        else message.reply_animation
+
+        else message.reply_text
+
     )
-    reply_animation(GIF_ID, caption=f"*Sanitizes {name}*")
+
+    reply_text(f"Lmao {name}, Keep 1 meter distance 😂")
+
 
 
 @run_async
