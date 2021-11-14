@@ -35,7 +35,7 @@ CATTO_GIFS = [
 CATTO_TEXT = [
       "Cat Is Sleeping Nya!",
       "Catto Just Scratched you",
-      "@Me_iz_mad_boi is the Catto Lord",
-      "Catto is playing with @Me_iz_mad_boi now!",
+      "@My_Dear_lightBright is the Catto Lord",
+      "Catto is playing with @My_Dear_LightBright now!",
       "Catto Loves You ❤"
     ]
