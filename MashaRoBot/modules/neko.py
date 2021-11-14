@@ -40,10 +40,10 @@ def nyaa(update: Update, context: CallbackContext):
             temp = random.choice(nekostrings.NEKO_GIFS)
             reply_to.reply_animation(temp)
         except BadRequest:
-            nyaa_type = "Text"
+            nyaa_type = "Gif"
 
-    if nyaa_type == "Text":
-        temp = random.choice(nekostrings.NEKO_TEXT)
+    if nyaa_type == "Gif":
+        temp = random.choice(nekostrings.NEKO_GIFS)
         reply = temp.format(user1=user1, user2=user2)
         reply_to.reply_text(reply, parse_mode=ParseMode.HTML)
 
@@ -76,10 +76,10 @@ def meow(update: Update, context: CallbackContext):
             temp = random.choice(nekostrings.CATTO_GIFS)
             reply_to.reply_animation(temp)
         except BadRequest:
-            nyaa_type = "Text"
+            nyaa_type = "Gif"
 
-    if meow_type == "Text":
-        temp = random.choice(nekostrings.CATTO_TEXT)
+    if meow_type == "Gif":
+        temp = random.choice(nekostrings.CATTO_GIFS)
         reply = temp.format(user1=user1, user2=user2)
         reply_to.reply_text(reply, parse_mode=ParseMode.HTML)
 
