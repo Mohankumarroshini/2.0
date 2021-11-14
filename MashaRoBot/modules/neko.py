@@ -43,7 +43,7 @@ def nyaa(update: Update, context: CallbackContext):
             nyaa_type = "Text"
 
     if nyaa_type == "Gif":
-        temp = random.choice(nekostrings.NEKO_GIF)
+        temp = random.choice(nekostrings.NEKO_GIFS)
         reply = temp.format(user1=user1, user2=user2)
         reply_to.reply_text(reply, parse_mode=ParseMode.HTML)
 
@@ -79,7 +79,7 @@ def meow(update: Update, context: CallbackContext):
             nyaa_type = "Text"
 
     if meow_type == "Gif":
-        temp = random.choice(nekostrings.CATTO_GIF)
+        temp = random.choice(nekostrings.CATTO_GIFS)
         reply = temp.format(user1=user1, user2=user2)
         reply_to.reply_text(reply, parse_mode=ParseMode.HTML)
 
