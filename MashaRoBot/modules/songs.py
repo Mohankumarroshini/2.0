@@ -4,7 +4,7 @@ import wget
 from pyrogram import filters
 
 from MashaRoBot import pbot as Sophia
-from MashaRoBot.function.dark import get_arg
+from MashaRoBot.utils.dark import get_arg
 
 
 @Sophia.on_message(filters.command("saavn"))
