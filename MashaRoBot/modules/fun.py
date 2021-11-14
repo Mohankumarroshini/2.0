@@ -537,6 +537,10 @@ dispatcher.add_handler(TABLE_HANDLER)
 
 dispatcher.add_handler(WEEBIFY_HANDLER)
 
+dispatcher.add_handler(GDMORNING_HANDLER)
+
+dispatcher.add_handler(GDNIGHT_HANDLER)
+
 __mod_name__ = "Fᴜɴ🤣"
 
 __command_list__ = [
@@ -553,6 +557,8 @@ __handlers__ = [
 
     SHRUG_HANDLER, BLUETEXT_HANDLER, RLG_HANDLER, DECIDE_HANDLER, TABLE_HANDLER,
 
-    SANITIZE_HANDLER, LYRICS_HANDLER, EIGHTBALL_HANDLER, WEEBIFY_HANDLER
+    SANITIZE_HANDLER, LYRICS_HANDLER, EIGHTBALL_HANDLER, WEEBIFY_HANDLER, GDMORNING_HANDLER,
+
+    GDNIGHT_HANDLER
 
 ]
