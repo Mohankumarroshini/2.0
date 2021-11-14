@@ -18,7 +18,7 @@ import MashaRoBot.modules.fun_strings as fun_strings
 
 from MashaRoBot import dispatcher
 
-from MashaRoBot.modules.disable import DisableAbleCommandHandler
+from MashaRoBot.modules.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
 
 from MashaRoBot.modules.helper_funcs.alternate import send_message, typing_action
 
