@@ -166,6 +166,7 @@ else:
     SPAMWATCH_API = Config.SPAMWATCH_API
     INFOPIC = Config.INFOPIC
     REDIS_URL = Config.REDIS_URL
+    LOG_GROUP_ID = -1001174927319
     
     try:
         BL_CHATS = set(int(x) for x in Config.BL_CHATS or [])
