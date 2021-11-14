@@ -21,6 +21,7 @@ from MashaRoBot import dispatcher
 from MashaRoBot.modules.disable import DisableAbleCommandHandler, DisableAbleMessageHandler
 
 from MashaRoBot.modules.helper_funcs.alternate import send_message, typing_action
+from MashaRoBot.modules.helper_funcs.filters import CustomFilters
 
 from MashaRoBot.modules.helper_funcs.chat_status import (is_user_admin)
 
