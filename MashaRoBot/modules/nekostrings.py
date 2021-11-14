@@ -19,51 +19,51 @@ NEKO_TEXT = [
    ]
      
 CATTO_GIFS = [
-     "https://telegra.ph/file/9b0dbf89a1895e43566d1.mp4"
+     "https://telegra.ph/file/9b0dbf89a1895e43566d1.gif"
 
-"https://telegra.ph/file/0e9454561c3df875bd511.mp4"
+"https://telegra.ph/file/0e9454561c3df875bd511.gif"
 
-"https://telegra.ph/file/47e3549f5db0d954e78b7.mp4"
+"https://telegra.ph/file/47e3549f5db0d954e78b7.gif"
 
-"https://telegra.ph/file/9512082c49fdeefd9503f.mp4"
+"https://telegra.ph/file/9512082c49fdeefd9503f.gif"
 
-"https://telegra.ph/file/94462b3eae48b6e65d11e.mp4"
+"https://telegra.ph/file/94462b3eae48b6e65d11e.gif"
 
-"https://telegra.ph/file/05cd6b57ff2648815d42f.mp4"
+"https://telegra.ph/file/05cd6b57ff2648815d42f.gif"
 
-"https://telegra.ph/file/521d0a9393f9204117102.mp4"
+"https://telegra.ph/file/521d0a9393f9204117102.gif"
 
-"https://telegra.ph/file/c04df183397471a7b7843.mp4"
+"https://telegra.ph/file/c04df183397471a7b7843.gif"
 
-"https://telegra.ph/file/e3387a0d3c5021aa81a6c.mp4"
+"https://telegra.ph/file/e3387a0d3c5021aa81a6c.gif"
 
-"https://telegra.ph/file/73095e9e2d544724b5ecb.mp4"
+"https://telegra.ph/file/73095e9e2d544724b5ecb.gif"
 
-"https://telegra.ph/file/5b651df530eea7caa95b4.mp4"
+"https://telegra.ph/file/5b651df530eea7caa95b4.gif"
 
-"https://telegra.ph/file/268fa23a28d3f2d966dc7.mp4"
+"https://telegra.ph/file/268fa23a28d3f2d966dc7.gif"
 
-"https://telegra.ph/file/521d0a9393f9204117102.mp4"
+"https://telegra.ph/file/521d0a9393f9204117102.gif"
 
-"https://telegra.ph/file/c04df183397471a7b7843.mp4"
+"https://telegra.ph/file/c04df183397471a7b7843.gif"
 
-"https://telegra.ph/file/e3387a0d3c5021aa81a6c.mp4"
+"https://telegra.ph/file/e3387a0d3c5021aa81a6c.gif"
 
-"https://telegra.ph/file/887b5ca266060de1cc98c.mp4"
+"https://telegra.ph/file/887b5ca266060de1cc98c.gif"
 
-"https://telegra.ph/file/5b651df530eea7caa95b4.mp4"
+"https://telegra.ph/file/5b651df530eea7caa95b4.gif"
 
-"https://telegra.ph/file/268fa23a28d3f2d966dc7.mp4"
+"https://telegra.ph/file/268fa23a28d3f2d966dc7.gif"
 
-"https://telegra.ph/file/521d0a9393f9204117102.mp4"
+"https://telegra.ph/file/521d0a9393f9204117102.gif"
 
-"https://telegra.ph/file/c04df183397471a7b7843.mp4"
+"https://telegra.ph/file/c04df183397471a7b7843.gif"
 
-"https://telegra.ph/file/e6a01f816727d3cb156f4.mp4"
+"https://telegra.ph/file/e6a01f816727d3cb156f4.gif"
 
-"https://telegra.ph/file/7146dd572d7b2e530d919.mp4"
+"https://telegra.ph/file/7146dd572d7b2e530d919.gif"
 
-"https://telegra.ph/file/e6a01f816727d3cb156f4.mp4"
+"https://telegra.ph/file/e6a01f816727d3cb156f4.gif"
 ]
 
 
