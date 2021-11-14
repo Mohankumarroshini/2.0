@@ -96,7 +96,7 @@ MEOW_HANDLER = DisableAbleCommandHandler("meow", meow)
 dispatcher.add_handler(NYAA_HANDLER)
 dispatcher.add_handler(MEOW_HANDLER)
 
-__mod_name__ = "Neko"
+__mod_name__ = "ɴᴇᴋᴏ🐾"
 
 __command_list__ = [
        "nyaa", "meow"
