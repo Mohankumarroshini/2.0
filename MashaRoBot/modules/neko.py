@@ -6,11 +6,11 @@ from telegram import ParseMode, Update, ChatPermissions
 from telegram.ext import CallbackContext, run_async
 from telegram.error import BadRequest
 
-import EmiliaAnimeBot.modules.nekostrings as nekostrings
-from EmiliaAnimeBot import dispatcher
-from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
-from EmiliaAnimeBot.modules.helper_funcs.chat_status import (is_user_admin)
-from EmiliaAnimeBot.modules.helper_funcs.extraction import extract_user
+import MashaRoBot.modules.nekostrings as nekostrings
+from MashaRoBot import dispatcher
+from MashaRoBot.modules.disable import DisableAbleCommandHandler
+from MashaRoBot.modules.helper_funcs.chat_status import (is_user_admin)
+from MashaRoBot.modules.helper_funcs.extraction import extract_user
 
 
 
