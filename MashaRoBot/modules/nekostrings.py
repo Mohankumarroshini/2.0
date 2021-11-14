@@ -14,22 +14,58 @@ NEKO_GIFS = [
 
 
 NEKO_TEXT = [
-     "@weebarsh, the Neko, Scratches you!",
+     "@Mastro_Support, the Neko, Scratches you!",
      "Nya! {user1} is a Neko!"
    ]
      
 CATTO_GIFS = [
-     "CgACAgQAAxkBAAIJ_2DeKUy5t1snrwG5JLFMjUc-8uLbAALLBwACBdNQU1arAX5_1F_7IAQ",
-     "CgACAgIAAxkBAAIKAWDeKVb0U7CcjMa9CeJdDxpaWZbUAAJ4CgACJYfJSlV3Kl5rpvBxIAQ",
-     "CgACAgQAAxkBAAIKAAFg3ilR2PkQOXYNmDDkOnYbE5McXAACjwIAAqjevVHVJ1dqqXmVbCAE",
-     "CgACAgQAAxkBAAIKAmDeKVvPemPy0nznKEj0HTl2XntbAAK3AgAC62NsURUCu8Fufv1SIAQ",
-     "CgACAgQAAxkBAAIKA2DeKWHmgoz28Ln2m0zbnm5XJxQ4AAJVAgACsx2UUr0joi8r6Wk1IAQ",
-     "CgACAgQAAxkBAAIKBGDeKWef8xHiF017pg3yfKKulCknAAKwAgAC3BIlUgABIeW601qZPSAE",
-     "CgACAgQAAxkBAAIKBWDeKWwS2lfVRh_SffXbxZvG34ZGAAJAAgACoNmFUhHMKYTMCDTEIAQ",
-     "CgACAgQAAxkBAAIKBmDeKXFdBFSPHgGShQl_4wt4fQvYAAJyAgACRCiNULIN3-yqjEPTIAQ",
-     "CgACAgQAAxkBAAIKB2DeKXd0oBthVOKTlnE9IRx3vZO0AAJkAgACVp2FUkL9sI849nBVIAQ",
-     "CgACAgUAAxkBAAIKCGDeIAMDOcdV6ILZ9vw6KPA-Z6lQAAJMAAPix0lUneXvfTnra18gBA"
-    ]
+     "https://telegra.ph/file/9b0dbf89a1895e43566d1.mp4"
+
+"https://telegra.ph/file/0e9454561c3df875bd511.mp4"
+
+"https://telegra.ph/file/47e3549f5db0d954e78b7.mp4"
+
+"https://telegra.ph/file/9512082c49fdeefd9503f.mp4"
+
+"https://telegra.ph/file/94462b3eae48b6e65d11e.mp4"
+
+"https://telegra.ph/file/05cd6b57ff2648815d42f.mp4"
+
+"https://telegra.ph/file/521d0a9393f9204117102.mp4"
+
+"https://telegra.ph/file/c04df183397471a7b7843.mp4"
+
+"https://telegra.ph/file/e3387a0d3c5021aa81a6c.mp4"
+
+"https://telegra.ph/file/73095e9e2d544724b5ecb.mp4"
+
+"https://telegra.ph/file/5b651df530eea7caa95b4.mp4"
+
+"https://telegra.ph/file/268fa23a28d3f2d966dc7.mp4"
+
+"https://telegra.ph/file/521d0a9393f9204117102.mp4"
+
+"https://telegra.ph/file/c04df183397471a7b7843.mp4"
+
+"https://telegra.ph/file/e3387a0d3c5021aa81a6c.mp4"
+
+"https://telegra.ph/file/887b5ca266060de1cc98c.mp4"
+
+"https://telegra.ph/file/5b651df530eea7caa95b4.mp4"
+
+"https://telegra.ph/file/268fa23a28d3f2d966dc7.mp4"
+
+"https://telegra.ph/file/521d0a9393f9204117102.mp4"
+
+"https://telegra.ph/file/c04df183397471a7b7843.mp4"
+
+"https://telegra.ph/file/e6a01f816727d3cb156f4.mp4"
+
+"https://telegra.ph/file/7146dd572d7b2e530d919.mp4"
+
+"https://telegra.ph/file/e6a01f816727d3cb156f4.mp4"
+]
+
 
 
 CATTO_TEXT = [
