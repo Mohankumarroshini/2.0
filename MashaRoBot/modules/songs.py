@@ -7,11 +7,11 @@ import aiohttp
 import youtube_dl
 
 from pyrogram import filters
-from EmiliaAnimeBot import pgram
+from MashaRoBot import pgram
 from youtube_search import YoutubeSearch
-from EmiliaAnimeBot.pyroerror import capture_err
-from EmiliaAnimeBot.modules.disable import DisableAbleCommandHandler
-from EmiliaAnimeBot import dispatcher
+from MashaRoBot.pyroerror import capture_err
+from MashaRoBot.modules.disable import DisableAbleCommandHandler
+from MashaRoBot import dispatcher
 
 def time_to_seconds(time):
     stringt = str(time)
@@ -58,7 +58,7 @@ def song(client, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f'🎙 **Title**: [{title[:35]}]({link})\n🎬 **Source**: YouTube\n⏱️ **Duration**: `{duration}`\n👁‍🗨 **Views**: `{views}`\n📤 **By**: @EmiliaAnimeBot '
+        rep = f'🎙 **Title**: [{title[:35]}]({link})\n🎬 **Source**: YouTube\n⏱️ **Duration**: `{duration}`\n👁‍🗨 **Views**: `{views}`\n📤 **By**: @Athena_ProBot '
         secmul, dur, dur_arr = 1, 0, duration.split(':')
         for i in range(len(dur_arr)-1, -1, -1):
             dur += (int(dur_arr[i]) * secmul)
@@ -66,7 +66,7 @@ def song(client, message):
         message.reply_audio(audio_file, caption=rep, thumb=thumb_name, parse_mode='md', title=title, duration=dur)
         m.delete()
     except Exception as e:
-        m.edit('❌ Error report it to @EmiliaAnimeBotSupport')
+        m.edit('❌ Error report it to @Mastro_Support')
         print(e)
 
     try:
