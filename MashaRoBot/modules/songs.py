@@ -3,8 +3,8 @@ import requests
 import wget
 from pyrogram import filters
 
-from Sophia import pbot as Sophia
-from Sophia.Best_Of_Sophia.dark import get_arg
+from MashaRoBot import pbot as Sophia
+from MashaRoBot.Best_Of_Sophia.dark import get_arg
 
 
 @Sophia.on_message(filters.command("saavn"))
@@ -141,7 +141,7 @@ async def deezer(_, message):
     await m.delete()
     
     
-__mod_name__ = "💞Songs💞"
+__mod_name__ = "sᴏɴɢs💞"
 
 __help__ = """
 ~ `/song`** <songname artist(optional)>: download the song in it's best quality available.
