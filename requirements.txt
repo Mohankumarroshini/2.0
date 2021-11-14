@@ -79,3 +79,4 @@ cloudscraper
 gpytranslate
 motor
 lyricsgenius
+youtube_search
