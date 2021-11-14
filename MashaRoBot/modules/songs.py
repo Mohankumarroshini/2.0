@@ -40,7 +40,7 @@ import os
 import aiofiles
 import aiohttp
 from pyrogram import filters
-from Sophia import pbot as Sophia
+from MashaRoBot import pbot as Sophia
 
 ARQ = "https://thearq.tech/"
 
@@ -93,7 +93,7 @@ import os
 import aiofiles
 import aiohttp
 from pyrogram import filters
-from Sophia import pbot as CHABEE
+from MashaRoBot import pbot as CHABEE
 
 ARQ = "https://thearq.tech/"
 
