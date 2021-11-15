@@ -1,14 +1,38 @@
-NEKO_GIFS = [
-      "CgACAgQAAx0CS3FrwgABA7QRYN4Qh3gRt9W7EyBclz66lrnRCLEAAlwCAAILXpRS0AXMoo4Mt0ggBA",
-      "CgACAgQAAx0CS3FrwgABA7QTYN4QoQU5h6x3dVKWHhpxjof7dGYAAm4CAAImOp1SFu9fLxqQHTsgBA",
-      "CgACAgQAAx0CS3FrwgABA7QXYN4Qr5diE0lFazb_nICRWcBky1QAAg4CAALeXaRSOV07ULDF8w8gBA",
-      "CgACAgQAAx0CS3FrwgABA7QZYN4QvcRQpB6MyQnC-CKwb0ADw5IAAgUCAAKtg_1Sc1ruipBl-HIgBA",
-      "CgACAgQAAx0CS3FrwgABA7QgYN4Q9JgbGGR4HmUcQNIJz43sj1wAAm0CAALlRpRSq6xYmzCCBkQgBA",
-      "CgACAgQAAx0CS3FrwgABA7QqYN4RI1V6naPXjecKOXTH049L2ooAAk0CAAJ4gJVSS4rpSvu5Gm0gBA",
-      "CgACAgQAAx0CS3FrwgABA7QsYN4RNJjg3TZwzS8EXAt4pbWcyxQAAmgCAAIwnI1S782tAAEVB6kOIAQ",
-      "CgACAgQAAx0CS3FrwgABA7QvYN4RXiwVjyPjIXQTDipkUbzYL1wAAhMCAALzhZxSIVpg1Ofqc9MgBA",
-      "CgACAgQAAx0CS3FrwgABA7QxYN4RdbMRIghDm2rdTUv8lDTwImkAAnUCAAJxod1S2ON4j8DhPRggBA",
-      "CgACAgQAAx0CS3FrwgABA7QzYN4RjoFTcPK4m6uYv7YrY7PEEh0AAk8CAAIKeKRSrRPpeh2C9XQgBA"
+NEKO_GIFS = ["https://telegra.ph/file/adc0f6f23a7aea67c1aab.gif",
+
+"https://telegra.ph/file/37c78b92afc567cad7ec2.gif",
+
+"https://telegra.ph/file/5a9d99dc203c86ddd117f.gif",
+
+"https://telegra.ph/file/5cf88cb9d94943d4f1a7c.gif",
+
+"https://telegra.ph/file/f7582b118e0a8ad9006b4.gif",
+
+"https://telegra.ph/file/c577f514d3d4894db08e5.gif",
+
+"https://telegra.ph/file/45ce22edba003b33b2fa8.gif",
+
+"https://telegra.ph/file/927df395b70cae56e8da5.gif",
+
+"https://telegra.ph/file/624da53eff38d48e53f97.gif",
+
+"https://telegra.ph/file/cec99c78367f4d37a4562.gif",
+
+"https://telegra.ph/file/210d71fca3bdfe1219e7c.gif",
+
+"https://telegra.ph/file/85f5eb3533fd3e6755fdd.gif",
+
+"https://telegra.ph/file/85f5eb3533fd3e6755fdd.gif",
+
+"https://telegra.ph/file/e58e11e7c6fcd95364967.gif",
+
+"https://telegra.ph/file/824a0b1f3fec282215263.gif",
+
+"https://telegra.ph/file/12c302f1d72967acac52d.gif",
+
+"https://telegra.ph/file/cdfc98a31bf3b5cef1b63.gif",
+
+"https://telegra.ph/file/72996617cbb56bf9dfcff.gif"
    ]
 
 
