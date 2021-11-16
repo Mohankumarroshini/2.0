@@ -163,6 +163,6 @@ __help__ = """
 
 """
 
-__mod_name__ = "ᴀʟᴀʀᴍ⏰
+__mod_name__ = "ᴀʟᴀʀᴍ⏰"
 
 CMD_HELP.update({file_helpo: [file_helpo, __help__]})
