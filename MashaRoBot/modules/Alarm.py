@@ -1,4 +1,4 @@
-from MashaRoBot import tbot
+from MashaRoBot import pbot
 from telethon import *
 from pymongo import MongoClient
 from MashaRoBot import MONGO_DB_URI, CMD_HELP
