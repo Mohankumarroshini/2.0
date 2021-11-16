@@ -1,4 +1,4 @@
-from julia import tbot, CMD_HELP
+from julia import pbot, CMD_HELP
 import os
 import urllib.request
 from datetime import datetime
