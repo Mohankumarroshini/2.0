@@ -1,6 +1,6 @@
-from julia import tbot
-from julia import CMD_HELP, MONGO_DB_URI
-from julia.events import register
+from MashaRoBot import tbot
+from MashaRoBot import CMD_HELP, MONGO_DB_URI
+from MashaRoBot.events import register
 from telethon import *
 from telethon.tl import functions
 from pymongo import MongoClient
