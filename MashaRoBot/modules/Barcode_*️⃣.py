@@ -12,8 +12,8 @@ from telethon.tl import functions
 from telethon.tl import types
 from telethon.tl.types import *
 
-from julia import *
-from julia.events import register
+from MashaRoBot import *
+from MashaRoBot.events import register
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
