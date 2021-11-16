@@ -79,6 +79,6 @@ You can simply draw a border(a black square) around the portion you want to scan
 If you are still messed up send `/helpcamscanner` in pm for the tutorial !
 """
 
-__mod_name__ = "sᴄᴀɴɴᴇʀ👨‍⚖️
+__mod_name__ = "sᴄᴀɴɴᴇʀ👨‍⚖️"
 
 CMD_HELP.update({file_helpo: [file_helpo, __help__]})
