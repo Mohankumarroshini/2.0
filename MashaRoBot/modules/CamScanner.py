@@ -1,4 +1,4 @@
-from MashaRoBot import tbot
+from MashaRoBot import pbot
 from MashaRoBot import CMD_HELP, MONGO_DB_URI
 from MashaRoBot.events import register
 from telethon import *
