@@ -160,6 +160,9 @@ __help__ = """
 **Syntax:** `/setalarm 01/01/2000 10:00:00 AM | America/New_York | breakfast`
 
 **NOTE:** Please turn on notifications for @MissJuliaRobot otherwise you will not get notification for the alarm !
+
 """
+
+__mod_name__ = "ᴀʟᴀʀᴍ⏰
 
 CMD_HELP.update({file_helpo: [file_helpo, __help__]})
