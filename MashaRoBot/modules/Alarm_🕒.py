@@ -1,8 +1,8 @@
-from julia import tbot
+from MashaRoBot import tbot
 from telethon import *
 from pymongo import MongoClient
-from julia import MONGO_DB_URI, CMD_HELP
-from julia.events import register
+from MashaRoBot import MONGO_DB_URI, CMD_HELP
+from MashaRoBot.events import register
 import dateparser
 import os, asyncio
 
