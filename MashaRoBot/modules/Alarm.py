@@ -17,7 +17,7 @@ async def is_register_admin(chat, user):
     if isinstance(chat, (types.InputPeerChannel, types.InputChannel)):
         return isinstance(
             (
-                await tbot(functions.channels.GetParticipantRequest(chat, user))
+                await bpot(functions.channels.GetParticipantRequest(chat, user))
             ).participant,
             (types.ChannelParticipantAdmin, types.ChannelParticipantCreator),
         )
@@ -132,7 +132,7 @@ async def tikclock(event):
         # print (zone)
         # print(present>=ttime)
         if present > ttime:
-            await tbot.send_message(
+            await pbot.send_message(
                 chat,
                 f"**DING DONG**\n\n__This is an alarm set by__ {user} __for reason -__ `{reason}`",
             )
