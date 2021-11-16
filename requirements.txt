@@ -80,3 +80,4 @@ gpytranslate
 motor
 lyricsgenius
 youtube_search
+python-barcode==0.13.1
