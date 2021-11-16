@@ -10,6 +10,15 @@ from telethon import TelegramClient
 
 StartTime = time.time()
 
+
+CMD_LIST = {}
+
+CMD_HELP = {}
+
+LOAD_PLUG = {}
+
+BOT_VERSION = "1.1.0"
+
 # enable logging
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
