@@ -1,5 +1,5 @@
-from julia import CMD_HELP
-from julia import tbot
+from MashaRoBot import CMD_HELP
+from MashaRoBot import pbot
 import os
 from asyncio import sleep
 from datetime import datetime
@@ -8,10 +8,10 @@ from requests import get
 from requests import post
 from telethon import types
 from telethon.tl import functions
-from julia.events import register
+from MashaRoBot.events import register
 
 from pymongo import MongoClient
-from julia import MONGO_DB_URI
+from MashaRoBot import MONGO_DB_URI
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
