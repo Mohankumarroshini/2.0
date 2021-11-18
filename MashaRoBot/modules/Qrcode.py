@@ -148,4 +148,6 @@ __help__ = """
  - /makeqr <content>: make a qr code from the given message (text, link, etc...)
 """
 
+mod name - "ǫʀᴄᴏᴅᴇ🤕"
+
 CMD_HELP.update({file_helpo: [file_helpo, __help__]})
