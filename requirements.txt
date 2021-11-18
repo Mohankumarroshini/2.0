@@ -86,3 +86,4 @@ cowpy
 nltk
 zalgo_text
 selenium
+async-timeout
