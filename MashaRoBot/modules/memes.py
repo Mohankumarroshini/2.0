@@ -27,8 +27,8 @@ from zalgo_text import zalgo
 
 from MashaRoBot import *
 from MashaRoBot.events import register
-from MashaRoBot.services.telethon import tbot
-from MashaRoBot.services.telethonuserbot import ubot
+
+from MashaRoBot import telethn as ubot
 
 nltk.download("punkt")
 nltk.download("averaged_perceptron_tagger")
