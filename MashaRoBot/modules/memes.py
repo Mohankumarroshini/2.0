@@ -1789,9 +1789,9 @@ __help__ = """
  - /carbon <i>text</i>: Beautifies your text and enwraps inside a terminal image [ENGLISH ONLY]
  - /sticklet <i>text</i>: Turn a text into a sticker
  - /fortune: gets a random fortune quote
- - /quotly: Type /quotly in reply to a message to make a sticker of that
  - /animate: Enwrap your text in a beautiful anime
+
  
 """
 
-__mod_name__ = "Memes"
+__mod_name__ = "ғᴜɴ✨"
