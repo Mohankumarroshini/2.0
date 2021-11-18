@@ -83,3 +83,6 @@ youtube_search
 python-barcode==0.13.1
 coffeehouse
 cowpy
+nltk
+zalgo_text
+selenium
