@@ -25,10 +25,10 @@ from telethon.tl import functions
 from telethon.tl.types import *
 from zalgo_text import zalgo
 
-from Emma import *
-from Emma.services.events import register
-from Emma.services.telethon import tbot
-from Emma.services.telethonuserbot import ubot
+from MashaRoBot import *
+from MashaRoBot.services.events import register
+from MashaRoBot.services.telethon import tbot
+from MashaRoBot.services.telethonuserbot import ubot
 
 nltk.download("punkt")
 nltk.download("averaged_perceptron_tagger")
