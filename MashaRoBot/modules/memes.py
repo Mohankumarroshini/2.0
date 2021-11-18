@@ -26,7 +26,7 @@ from telethon.tl.types import *
 from zalgo_text import zalgo
 
 from MashaRoBot import *
-from MashaRoBot.services.events import register
+from MashaRoBot.events import register
 from MashaRoBot.services.telethon import tbot
 from MashaRoBot.services.telethonuserbot import ubot
 
