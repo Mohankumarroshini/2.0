@@ -549,27 +549,25 @@ def devlist(update: Update, context: CallbackContext):
             pass
     m.edit_text(reply, parse_mode=ParseMode.HTML)
 
+__help__ = """
+*⚠️ Notice:*
+Commands listed here only work for users with special access are mainly used for troubleshooting, debugging purposes.
+Group admins/group owners do not need these commands. 
+*List all special users:*
+❍ /dragons*:* Lists all Dragon disasters
+❍ /demons*:* Lists all Demon disasters
+❍ /tigers*:* Lists all Tigers disasters
+❍ /wolves*:* Lists all Wolf disasters
+❍ /heroes*:* Lists all Hero Association members
+❍ /adddragon*:* Adds a user to Dragon
+❍ /adddemon*:* Adds a user to Demon
+❍ /addtiger*:* Adds a user to Tiger
+❍ /addwolf*:* Adds a user to Wolf
+❍ `Add dev doesnt exist, devs should know how to add themselves`
 
-# __help__ = f"""
-# *⚠️ Notice:*
-# Commands listed here only work for users with special access are mainly used for troubleshooting, debugging purposes.
-# Group admins/group owners do not need these commands. 
-
-# *List all special users:*
-#  ❍ /dragons*:* Lists all Dragon disasters
-#  ❍ /demons*:* Lists all Demon disasters
-#  ❍ /tigers*:* Lists all Tigers disasters
-#  ❍ /wolves*:* Lists all Wolf disasters
-#  ❍ /heroes*:* Lists all Hero Association members
-#  ❍ /adddragon*:* Adds a user to Dragon
-#  ❍ /adddemon*:* Adds a user to Demon
-#  ❍ /addtiger*:* Adds a user to Tiger
-#  ❍ /addwolf*:* Adds a user to Wolf
-#  ❍ `Add dev doesnt exist, devs should know how to add themselves`
-
-# *Ping:*
-#  ❍ /ping*:* gets ping time of bot to telegram server
-#  ❍ /pingall*:* gets all listed ping times
+*Ping:*
+❍ /ping*:* gets ping time of bot to telegram server
+❍ /pingall*:* gets all listed ping times
 
 # *Broadcast: (Bot owner only)*
 # *Note:* This supports basic markdown
@@ -646,7 +644,7 @@ def devlist(update: Update, context: CallbackContext):
 
 # `⚠️ Read from top`
 # Visit @{SUPPORT_CHAT} for more information.
-# """
+"""
 
 SUDO_HANDLER = CommandHandler(("addsudo", "adddragon"), addsudo)
 SUPPORT_HANDLER = CommandHandler(("addsupport", "adddemon"), addsupport)
