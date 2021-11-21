@@ -54,7 +54,7 @@ async def inline_query(client, bot, query):
 # -- MADE BY @MissJulia_Robot
 
 
-@juliabot(pattern="^/gameed")
+@masharobot(pattern="^/gameed")
 async def ramdomgames(event):
     if event.fwd_from:
         return
@@ -93,7 +93,7 @@ async def ramdomgamess(event):
             pass
 
 
-@juliabot(pattern="^/jsusxjxhxhxshsjs")
+@masharobot(pattern="^/jsusxjxhxhxshsjs")
 async def ramdomgamesk(event):
     if event.fwd_from:
         return
@@ -129,7 +129,7 @@ async def ramdomgamess(event):
             pass
 
 
-@juliabot(pattern="^/jsuskhfkhdxjzhsjs")
+@masharobot(pattern="^/jsuskhfkhdxjzhsjs")
 async def ramdomgamesk(event):
     if event.fwd_from:
         return
@@ -167,7 +167,7 @@ async def ramdomgamess(event):
             pass
 
 
-@juliabot(pattern="^/jslgggfsslaxvuoqdjlxvqs")
+@masharobot(pattern="^/jslgggfsslaxvuoqdjlxvqs")
 async def ramdomgamesk(event):
     if event.fwd_from:
         return
@@ -205,7 +205,7 @@ async def ramdomgamess(event):
             pass
 
 
-@juliabot(pattern="^/jsdndbbduoqdjlxvqs")
+@masharobot(pattern="^/jsdndbbduoqdjlxvqs")
 async def ramdomgamesk(event):
     if event.fwd_from:
         return
@@ -243,7 +243,7 @@ async def ramdomgamess(event):
             pass
 
 
-@juliabot(pattern="^/jsdndbafjaffajlxvqs")
+@masharobot(pattern="^/jsdndbafjaffajlxvqs")
 async def ramdomgamesk(event):
     if event.fwd_from:
         return
@@ -281,7 +281,7 @@ async def ramdomgamess(event):
             pass
 
 
-@juliabot(pattern="^/jsddjdhiwws")
+@masharobot(pattern="^/jsddjdhiwws")
 async def ramdomgamesk(event):
     if event.fwd_from:
         return
@@ -319,7 +319,7 @@ async def ramdomgamess(event):
             pass
 
 
-@juliabot(pattern="^/whwyywwhewws")
+@masharobot(pattern="^/whwyywwhewws")
 async def ramdomgamesk(event):
     if event.fwd_from:
         return
@@ -357,7 +357,7 @@ async def ramdomgamess(event):
             pass
 
 
-@juliabot(pattern="^/wssksskxxskss")
+@masharobot(pattern="^/wssksskxxskss")
 async def ramdomgamesk(event):
     if event.fwd_from:
         return
