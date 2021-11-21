@@ -9,14 +9,14 @@ from telethon.tl.types import *
 
 from MashaRoBot import *
 
-from MashaRoBot.events import register, juliabot
+from MashaRoBot.events import register, masharobot
 
 from pymongo import MongoClient
 from MashaRoBot import MONGO_DB_URI
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
-db = client["missjuliarobot"]
+db = client["darkuserbot"]
 approved_users = db.approve
 
 
