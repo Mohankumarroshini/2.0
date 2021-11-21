@@ -7,12 +7,12 @@ from telethon.tl import functions
 from telethon.tl import types
 from telethon.tl.types import *
 
-from julia import *
+from MashaRoBot import *
 
-from julia.events import register, juliabot
+from MashaRoBot.events import register, juliabot
 
 from pymongo import MongoClient
-from julia import MONGO_DB_URI
+from MashaRoBot import MONGO_DB_URI
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
@@ -115,7 +115,7 @@ async def ramdomgamess(event):
             pass
         else:
             return
-    chat = "@MissJulia_Robot"
+    chat = "@Athena_ProBot"
     async with tbot.conversation(chat) as conv:
         try:
             response = conv.wait_event(
@@ -153,7 +153,7 @@ async def ramdomgamess(event):
             pass
         else:
             return
-    chat = "@MissJulia_Robot"
+    chat = "@Athena_ProBot"
     async with tbot.conversation(chat) as conv:
         try:
             response = conv.wait_event(
@@ -191,7 +191,7 @@ async def ramdomgamess(event):
             pass
         else:
             return
-    chat = "@MissJulia_Robot"
+    chat = "@Athena_ProBot"
     async with tbot.conversation(chat) as conv:
         try:
             response = conv.wait_event(
@@ -229,7 +229,7 @@ async def ramdomgamess(event):
             pass
         else:
             return
-    chat = "@MissJulia_Robot"
+    chat = "@Athena_ProBot"
     async with tbot.conversation(chat) as conv:
         try:
             response = conv.wait_event(
@@ -267,7 +267,7 @@ async def ramdomgamess(event):
             pass
         else:
             return
-    chat = "@MissJulia_Robot"
+    chat = "@Athena_ProBot"
     async with tbot.conversation(chat) as conv:
         try:
             response = conv.wait_event(
@@ -305,7 +305,7 @@ async def ramdomgamess(event):
             pass
         else:
             return
-    chat = "@MissJulia_Robot"
+    chat = "@Athena_ProBot"
     async with tbot.conversation(chat) as conv:
         try:
             response = conv.wait_event(
@@ -343,7 +343,7 @@ async def ramdomgamess(event):
             pass
         else:
             return
-    chat = "@MissJulia_Robot"
+    chat = "@athena_probot"
     async with tbot.conversation(chat) as conv:
         try:
             response = conv.wait_event(
@@ -381,7 +381,7 @@ async def ramdomgamess(event):
             pass
         else:
             return
-    chat = "@MissJulia_Robot"
+    chat = "@Athena_ProBot"
     async with tbot.conversation(chat) as conv:
         try:
             response = conv.wait_event(
