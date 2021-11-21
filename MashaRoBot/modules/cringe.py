@@ -6,7 +6,7 @@ from telegram import ParseMode, Update, ChatPermissions
 from telegram.ext import CallbackContext, run_async
 from telegram.error import BadRequest
 
-import MashaRoBot.modules.cringe_strings as cringe_strings
+import MashaRoBot.modules.cringe_strings as animequotes_strings
 from MashaRoBot import dispatcher
 from MashaRoBot.modules.disable import DisableAbleCommandHandler
 from MashaRoBot.modules.helper_funcs.chat_status import (is_user_admin)
@@ -24,14 +24,14 @@ __help__ = """
  • `/cringe`*:* gives random cringe strickers
  
 """
-CRINGE_HANDLER = DisableAbleCommandHandler("cringe", cringe)
+ANIMEQUOTE_HANDLER = DisableAbleCommandHandler("cringe", animequotes)
 
-dispatcher.add_handler(CRINGE_HANDLER)
+dispatcher.add_handler(ANIMEQUOTE_HANDLER)
 
 __mod_name__ = "ᴄʀɪɴɢᴇ🦋"
 __command_list__ = [
     "cringe"
 ]
 __handlers__ = [
-    CRINGE_HANDLER
+    ANIMEQUOTE_HANDLER
 ]
