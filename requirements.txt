@@ -87,3 +87,4 @@ nltk
 zalgo_text
 selenium
 async-timeout
+fortune==1.1.0
