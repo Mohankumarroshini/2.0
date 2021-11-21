@@ -1,6 +1,6 @@
-from julia import CMD_HELP, OWNER_ID
+from MashaRoBot import CMD_HELP, OWNER_ID
 import os
-from julia import tbot
+from MashaRoBot import pbot
 from telethon import *
 from telethon import events
 from telethon.tl import functions
