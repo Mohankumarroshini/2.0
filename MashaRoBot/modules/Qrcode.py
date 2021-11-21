@@ -15,7 +15,7 @@ from MashaRoBot import MONGO_DB_URI
 
 client = MongoClient()
 client = MongoClient(MONGO_DB_URI)
-db = client["missjuliarobot"]
+db = client["Athena_probot"]
 approved_users = db.approve
 
 
