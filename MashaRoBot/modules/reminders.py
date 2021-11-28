@@ -13,7 +13,7 @@ from MashaRoBot.modules.disable import DisableAbleCommandHandler
 
 job_queue = updater.job_queue
 
-
+@run_async
 def get_time(time: str) -> int:
     if time[-1] == "s":
         return int(time[:-1])
@@ -31,7 +31,7 @@ Your reminder:
 {reason}
 <i>Which you timed {time} before in {title}</i>
 """
-
+@run_async
 def reminders(update: Update, context: CallbackContext):
     user = update.effective_user
     msg = update.effective_message
@@ -55,7 +55,7 @@ def reminders(update: Update, context: CallbackContext):
         parse_mode = ParseMode.HTML
     )
 
-
+@run_async
 def set_reminder(update: Update, context: CallbackContext):
     user = update.effective_user
     msg = update.effective_message
@@ -80,7 +80,8 @@ def set_reminder(update: Update, context: CallbackContext):
             reply_to_message_id = msg.message_id
         )
         return
-    def job(context: CallbackContext):
+@run_async
+	def job(context: CallbackContext):
         title = ""
         if chat.type == "private": title += "this chat"
         if chat.type != "private": title += chat.title
@@ -108,7 +109,7 @@ def set_reminder(update: Update, context: CallbackContext):
         reply_to_message_id = msg.message_id,
         parse_mode = ParseMode.HTML
     )
-    
+@run_async   
 def clear_reminder(update: Update, context: CallbackContext):
     user = update.effective_user
     msg = update.effective_message
@@ -137,7 +138,7 @@ def clear_reminder(update: Update, context: CallbackContext):
         text = "Done cleared the reminder!",
         reply_to_message_id = msg.message_id
     )
-
+@run_async
 def clear_all_reminders(update: Update, context: CallbackContext):
     user = update.effective_user
     msg = update.effective_message
@@ -164,7 +165,7 @@ def clear_all_reminders(update: Update, context: CallbackContext):
         reply_to_message_id = msg.message_id,
         parse_mode = ParseMode.HTML
     )
-
+@run_async
 def clear_all_my_reminders(update: Update, context: CallbackContext):
     user = update.effective_user
     msg = update.effective_message
@@ -212,13 +213,13 @@ __help__ = """
   ➢ `/clearreminder 1234567890123456789`
 """
 
-RemindersHandler = CommandHandler('reminders', 'myreminders', reminders, filters = Filters.chat_type.private, run_async=True)
-SetReminderHandler = DisableAbleCommandHandler('setreminder', set_reminder, run_async=True)
-ClearReminderHandler = DisableAbleCommandHandler('clearreminder', clear_reminder, run_async=True)
+RemindersHandler = CommandHandler('reminders', 'myreminders', reminders, filters = Filters.group.private)
+SetReminderHandler = DisableAbleCommandHandler('setreminder', set_reminder)
+ClearReminderHandler = DisableAbleCommandHandler('clearreminder', clear_reminder)
 ClearAllRemindersHandler = CommandHandler(
-    'clearallreminders', clear_all_reminders, filters = Filters.chat(OWNER_ID), run_async=True)
+    'clearallreminders', clear_all_reminders, filters = Filters.chat(OWNER_ID))
 ClearALLMyRemindersHandler = CommandHandler(
-    ['clearmyreminders', 'clearallmyreminders'], clear_all_my_reminders, filters = Filters.chat_type.private, run_async=True)
+    ['clearmyreminders', 'clearallmyreminders'], clear_all_my_reminders, filters = Filters.group.private)
 
 dispatcher.add_handler(RemindersHandler)
 dispatcher.add_handler(SetReminderHandler)
