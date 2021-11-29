@@ -89,5 +89,5 @@ selenium
 async-timeout
 fortune==1.1.0
 #ImageEditor
-
+bs4
 glitch_this
