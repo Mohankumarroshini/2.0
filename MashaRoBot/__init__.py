@@ -199,15 +199,25 @@ else:
         sw = spamwatch.Client(SPAMWATCH_API)
     except:
         sw = None
-        LOGGER.warning("Can't connect to SpamWatch!")
         
+        LOGGER.warning("Can't connect to SpamWatch!")
 
+ubot = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)        
+try:
+
+    ubot.start()
+
+except BaseException:
+
+    print("Userbot Error ! Have you added a STRING_SESSION in deploying??")
+
+    sys.exit(1)
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
 telethn = TelegramClient("innexia", API_ID, API_HASH)
 client = TelegramClient("saber", API_ID, API_HASH)
 pgram = Client("EmiPyro", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
-ubot = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)
+
 pbot = Client("MashaRoBot", api_id=API_ID, api_hash=API_HASH, bot_token=TOKEN)
 dispatcher = updater.dispatcher
 
