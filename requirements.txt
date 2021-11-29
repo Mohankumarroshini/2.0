@@ -81,7 +81,7 @@ motor
 lyricsgenius
 youtube_search
 python-barcode==0.13.1
-coffeehouse
+coffeehouse==2.2.4
 cowpy
 nltk
 zalgo_text
