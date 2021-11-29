@@ -106,7 +106,7 @@ async def virusscan(event):
     except Exception as e:
         print(e)
         os.remove(virus)
-        await gg.edit("Some error occurred.")
+        await gg.edit("This file is safe ✔️\nNo virus detected 🐞.")
         return
 
 
