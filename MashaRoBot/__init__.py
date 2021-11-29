@@ -94,6 +94,7 @@ if ENV:
     BAN_STICKER = os.environ.get("BAN_STICKER", "CAADAgADOwADPPEcAXkko5EB3YGYAg")
     ALLOW_EXCL = os.environ.get("ALLOW_EXCL", False)
     CASH_API_KEY = os.environ.get("CASH_API_KEY", None)
+    STRING_SESSION = os.environ.get('STRING_SESSION', None)
     TIME_API_KEY = os.environ.get("TIME_API_KEY", None)
     AI_API_KEY = os.environ.get("AI_API_KEY", None)
     WALL_API = os.environ.get("WALL_API", None)
@@ -199,6 +200,17 @@ else:
     except:
         sw = None
         LOGGER.warning("Can't connect to SpamWatch!")
+        ubot = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)
+
+    try:
+
+    ubot.start()
+
+    except BaseException:
+
+    print("Userbot Error ! Have you added a STRING_SESSION in deploying??")
+
+    sys.exit(1)
 
 
 updater = tg.Updater(TOKEN, workers=WORKERS, use_context=True)
