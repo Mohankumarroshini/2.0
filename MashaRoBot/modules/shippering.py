@@ -22,7 +22,7 @@ today = str(dt()[0])
 tomorrow = str(dt_tom())
 
 
-@app.on_message(filters.command("couples") & ~filters.edited)
+@app.on_message(filters.command("shipping") & ~filters.edited)
 async def couple(_, message):
     if message.chat.type == "private":
         await message.reply_text("This command only works in groups.")
@@ -45,9 +45,9 @@ async def couple(_, message):
             c1_mention = (await app.get_users(c1_id)).mention
             c2_mention = (await app.get_users(c2_id)).mention
 
-            couple_selection_message = f"""**Couple of the day:**
+            couple_selection_message = f"""**ɴɪʙʙᴀ ɴɪʙʙɪ ᴏꜰ ᴛʜᴇ ᴅᴀʏ**
 {c1_mention} + {c2_mention} = ❤️
-__New couple of the day may be chosen at 12AM {tomorrow}__"""
+__ɴᴇᴡ ᴄᴏᴜᴘʟᴇ ᴏꜰ ᴛʜᴇ ᴅᴀʏ ᴍᴀʏ ʙᴇ ᴄʜᴏꜱᴇɴ ᴀᴛ 12ᴀᴍ {tomorrow}__"""
             await app.send_message(
                 message.chat.id,
                 text=couple_selection_message
@@ -77,6 +77,6 @@ __New couple of the day may be chosen at 12AM {tomorrow}__"""
 
 
 __help__ = """
- ❍ /couples - To Choose Couple Of The Day
+ ❍ /shipping - To Choose Couple Of The Day
  """
-__mod_name__ = "Cᴏᴜᴘʟᴇs😘"
+__mod_name__ = "shipping"
