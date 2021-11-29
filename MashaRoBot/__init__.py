@@ -77,7 +77,7 @@ if ENV:
     GBAN_DUMP = os.environ.get("GBAN_DUMP", None)
     API_ID = os.environ.get('API_ID', None)
     API_HASH = os.environ.get('API_HASH', None)
-    STRING_SESSION = os.environ.get('STRING_SESSION', None)
+    
     DB_URI = os.environ.get('SQLALCHEMY_DATABASE_URI')
     MONGO_DB_URI = os.environ.get("MONGO_DB_URI", None)
     MONGO_PORT = os.environ.get('MONGO_PORT', 27017)
@@ -139,12 +139,7 @@ else:
 
 
 
-ubot = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)
-try:
-    ubot.start()
-except BaseException:
-    print("Userbot Error ! Have you added a STRING_SESSION in deploying??")
-    sys.exit(1)
+
 
 
 api_id = API_ID
