@@ -10,7 +10,7 @@ from telethon.tl import functions, types
 
 from MashaRoBot.events import register
 from MashaRoBot import client as teletn
-from MashaRoBot import pbot
+from MashaRoBot import ubot
 
 
 async def is_register_admin(chat, user):
@@ -81,7 +81,7 @@ async def _(event):
 
     lol = await event.reply("```Processing```")
 
-    async with pbot.conversation(chat) as conv:
+    async with ubot.conversation(chat) as conv:
 
         try:
 
