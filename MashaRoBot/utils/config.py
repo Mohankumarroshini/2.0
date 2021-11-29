@@ -1,6 +1,6 @@
 import sys
 from envparse import env
-from tg_bot import LOGGER
+from MashaRoBot import LOGGER
 
 DEFAULTS = {
     "LOAD_MODULES": True,
