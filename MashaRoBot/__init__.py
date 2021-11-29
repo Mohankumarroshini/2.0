@@ -100,7 +100,7 @@ if ENV:
     SUPPORT_CHAT = os.environ.get('SUPPORT_CHAT', None)
     SPAMWATCH_SUPPORT_CHAT = os.environ.get('SPAMWATCH_SUPPORT_CHAT', None)
     SPAMWATCH = os.environ.get('SPAMWATCH_API', None)
-    REDIS_URL = os.environ.get('REDIS_URL', None)
+    
     CUSTOM_CMD = os.environ.get('CUSTOM_CMD', ('/', '!'))
     REPOSITORY = os.environ.get('REPOSITORY', "")
     IBM_WATSON_CRED_URL = os.environ.get("IBM_WATSON_CRED_URL", None)
@@ -136,12 +136,7 @@ else:
     spamwtc = spamwatch.Client(SPAMWATCH)
 
 
-REDIS = StrictRedis.from_url(REDIS_URL,decode_responses=True)
-try:
-    REDIS.ping()
-    LOGGER.info("Your redis server is now alive!")
-except BaseException:
-    raise Exception("Your redis server is not alive, please check again.")
+
 
 
 ubot = TelegramClient(StringSession(STRING_SESSION), API_ID, API_HASH)
