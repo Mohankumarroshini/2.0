@@ -93,3 +93,4 @@ opencv-python-headless
 Pillow
 glitch_this
 NumPy
+cloudmersive_virus_api_client==3.0.1
