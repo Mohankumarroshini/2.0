@@ -89,5 +89,5 @@ selenium
 async-timeout
 fortune==1.1.0
 #ImageEditor
-cloudscraper
+
 glitch_this
