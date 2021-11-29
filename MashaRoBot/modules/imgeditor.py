@@ -10,7 +10,7 @@ from pyrogram.types import (
 )
 
 # By @TroJanzHEX
-from Sophia.Addons.ImageEditor.edit_1 import (  # pylint:disable=import-error
+from MashaRoBot.Addons.edit_1 import (  # pylint:disable=import-error
     black_white,
     box_blur,
     bright,
@@ -18,7 +18,7 @@ from Sophia.Addons.ImageEditor.edit_1 import (  # pylint:disable=import-error
     mix,
     normal_blur,
 )
-from Sophia.Addons.ImageEditor.edit_2 import (  # pylint:disable=import-error
+from MashaRoBot.Addons.edit_2 import (  # pylint:disable=import-error
     cartoon,
     circle_with_bg,
     circle_without_bg,
@@ -28,13 +28,13 @@ from Sophia.Addons.ImageEditor.edit_2 import (  # pylint:disable=import-error
     sepia_mode,
     sticker,
 )
-from Sophia.Addons.ImageEditor.edit_3 import (  # pylint:disable=import-error
+from MashaRoBot.Addons.edit_3 import (  # pylint:disable=import-error
     black_border,
     blue_border,
     green_border,
     red_border,
 )
-from Sophia.Addons.ImageEditor.edit_4 import (  # pylint:disable=import-error
+from MashaRoBot.Addons.edit_4 import (  # pylint:disable=import-error
     inverted,
     removebg_plain,
     removebg_sticker,
@@ -44,7 +44,7 @@ from Sophia.Addons.ImageEditor.edit_4 import (  # pylint:disable=import-error
     rotate_270,
     round_sticker,
 )
-from Sophia.Addons.ImageEditor.edit_5 import (  # pylint:disable=import-error
+from MashaRoBot.Addons.edit_5 import (  # pylint:disable=import-error
     normalglitch_1,
     normalglitch_2,
     normalglitch_3,
@@ -56,7 +56,7 @@ from Sophia.Addons.ImageEditor.edit_5 import (  # pylint:disable=import-error
     scanlineglitch_4,
     scanlineglitch_5,
 )
-from Sophia.Best_Of_Sophia.pyrogram import Sophia as Client
+from MashaRoBot.pyrogramme.pyrogram import MashaRoBot as Client
 
 lel = 00000000
 # pylint:disable=import-error
