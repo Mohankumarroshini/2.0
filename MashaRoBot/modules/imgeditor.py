@@ -56,7 +56,7 @@ from MashaRoBot.Addons.edit_5 import (  # pylint:disable=import-error
     scanlineglitch_4,
     scanlineglitch_5,
 )
-from MashaRoBot.pyrogramme.pyrogram import MashaRoBot as Client
+from MashaRoBot.pyrogramee.pyrogram import MashaRoBot as Client
 
 lel = 00000000
 # pylint:disable=import-error
