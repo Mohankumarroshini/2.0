@@ -450,7 +450,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             await removebg_sticker(client, query.message)
 
 
-__mod_name__ = "💞Image Editor💞"
+__mod_name__ = "ɪᴍɢ ᴇᴅɪᴛᴏʀ💞"
 __help__ = """
 <b> Image Editor </b>
 Sophiazy have some advanced image editing tools inbuilt
