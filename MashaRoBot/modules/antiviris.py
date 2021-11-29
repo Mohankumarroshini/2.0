@@ -23,9 +23,9 @@ import cloudmersive_virus_api_client
 from telethon.tl import functions, types
 from telethon.tl.types import DocumentAttributeFilename, MessageMediaDocument
 
-from tg_bot.utils.config import get_str_key
-from tg_bot.events import register
-from tg_bot import client as tbot
+from MashaRoBot.utils.config import get_str_key
+from MashaRoBot.events import register
+from MashaRoBot import client as tbot
 
 
 async def is_register_admin(chat, user):
