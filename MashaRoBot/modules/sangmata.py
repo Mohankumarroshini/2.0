@@ -103,6 +103,8 @@ async def _(event):
 
 __help__ = """
   • /sg*:* Get A Name History Of User
+          
+          🥺 This module is not fully optimised. Suggest your commans in @Mastro_Support
 """
 
-__mod_name__ = "Sangmata"
+__mod_name__ = "sᴀɴɢᴍᴀᴛᴀ✨"
