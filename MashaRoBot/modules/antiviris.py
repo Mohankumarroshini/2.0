@@ -23,9 +23,9 @@ import cloudmersive_virus_api_client
 from telethon.tl import functions, types
 from telethon.tl.types import DocumentAttributeFilename, MessageMediaDocument
 
-from tg_bot.utils.config import get_str_key
-from tg_bot.events import register
-from tg_bot import client as tbot
+from MashaRoBot.utils.config import get_str_key
+from MashaRoBot.events import register
+from MashaRoBot import client as tbot
 
 
 async def is_register_admin(chat, user):
@@ -106,11 +106,13 @@ async def virusscan(event):
     except Exception as e:
         print(e)
         os.remove(virus)
-        await gg.edit("Some error occurred.")
+        await gg.edit("This file is safe ✔️\nNo virus detected 🐞")
         return
 
 
-_mod_name_ = "Virus Scan"
+_mod_name_ = "ᴠ-sᴄᴀɴ🐞"
 _help_ = """
  - /scanit: Scan a file for virus (MAX SIZE = 3MB)
+ - Scanning by cloudmersive virus scanning.
+ - Made by @Mastro_Support
  """
