@@ -9,7 +9,7 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 from telethon.tl import functions, types
 
 from MashaRoBot.events import register
-from MashaRoBot import client as teletn
+from MashaRoBot import client as telethn
 from MashaRoBot import ubot
 
 
