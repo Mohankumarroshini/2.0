@@ -74,8 +74,8 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`Hellow My name is` [*✰ 𝕬𝕥𝔥𝔢𝕟𝖆 𝕭𝕠𝖙 ✰*](https://telegra.ph/file/ee35275b37528747b2054.jpg)
-`I'm here to help you manage your groups! Hit Help button below to find out more about how to use me to my full potential.` 
+`ʜᴇʟᴏ ... ᴍʏ ɴᴀᴍᴇ ɪs [♪.𝕬𝖙ʜᴇ𝖓𝖆 𝕻𝖗ᴏʙ𝖔𝖙 .♪](https://telegra.ph/file/ee35275b37528747b2054.jpg). ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs ! ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ғɪɴᴅ ᴏᴜᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛᴏ ᴍʏ ғᴜʟʟ ᴘᴏᴛᴇɴᴛɪᴀʟ
+`` 
 """
 
 buttons = [
@@ -89,7 +89,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="Oᴡɴᴇʀ 🤴", url="https://t.me/My_Dear_lightbright"),
-        InlineKeyboardButton(text="𝐃𝐄𝐕𝐒", url="https://t.me/Mastro_updates/13"), 
+        
     ],
     [
         InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs 📊", url="https://t.me/Mastro_Updates"),
