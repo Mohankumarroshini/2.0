@@ -111,7 +111,7 @@ WOLFX_IMG = (
       "https://telegra.ph/file/89e069ddc5c581a3501ef.jpg",
      )
 
-TEXXT = f"Heya :) PM me if you have any questions on how to use me!\n*Hey* [{}](tg://settings/), *Athenaprobot Came for you! Since:* `{}`"
+TEXXT = "Heya :) PM me if you have any questions on how to use me!\n*Hey* [{}](tg://settings/), *Athenaprobot Came for you! Since:* `{}`"
 
 DONATE_STRING = "No need.. I'm rich"
 
