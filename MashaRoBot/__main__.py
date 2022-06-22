@@ -64,8 +64,8 @@ def get_readable_time(seconds: int) -> str:
     ping_time += ":".join(time_list)
     return ping_time
 PM_START_TEXT = """
-`Hellow My name is` [*✰ 𝕬𝕥𝔥𝔢𝕟𝖆 𝕭𝕠𝖙 ✰*](https://telegra.ph/file/ee35275b37528747b2054.jpg)
-`I'm here to help you manage your groups! Hit Help button below to find out more about how to use me to my full potential.` 
+`ʜᴇʟᴏ ᴍʏ ɴᴀᴍᴇ ɪs` [*✰ 𝕬𝕥𝔥𝔢𝕟𝖆 𝕭𝕠𝖙 ✰*](https://telegra.ph/file/ee35275b37528747b2054.jpg)
+`ɪ'ᴍ ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs! ʜɪᴛ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ғɪɴᴅ ᴏᴜᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛᴏ ᴍʏ ғᴜʟʟ ᴘᴏᴛᴇɴᴛɪᴀʟ.` 
 """
 buttons = [
     [
