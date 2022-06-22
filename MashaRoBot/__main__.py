@@ -78,20 +78,9 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="Oᴡɴᴇʀ 🤴", url="https://t.me/My_Dear_lightbright"),
-        InlineKeyboardButton(text="𝐃𝐄𝐕𝐒", url="https://t.me/Mastro_updates/13"), 
     ],
     [
         InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇs 📊", url="https://t.me/Mastro_Updates"),
-
-    
-          
-            
-    
-
-          
-    
-    
-  
         InlineKeyboardButton(
             text="Sᴜᴘᴘᴏʀᴛ 📢", url="https://t.me/Mastro_Support"
         ),
