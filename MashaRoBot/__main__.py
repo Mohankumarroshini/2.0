@@ -208,12 +208,14 @@ def start(update: Update, context: CallbackContext):
                 IMPORTED["rules"].send_rules(update, args[0], from_pm=True)
 
         else:
-            update.effective_message.reply_text(
-                PM_START_TEXT,
+            first_name = update.effective_user.first_name
+            update.effective_message.reply_photo(
+                PM_START_TEXT.format(                         
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
-            )
+             )
+
     else:
         update.effective_message.reply_text(
             "Heya :) PM me if you have any questions on how to use me!".format(
