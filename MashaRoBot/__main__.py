@@ -313,9 +313,9 @@ def Masha_about_callback(update: Update, context: CallbackContext):
                
 ✦ ɴᴏᴛᴇ: ɪ ɴᴇᴇᴅ ᴛᴏ ʙᴇ ᴘʀᴏᴍᴏᴛᴇᴅ ᴡɪᴛʜ ᴘʀᴏᴘᴇʀ ᴀᴅᴍɪɴ ᴘᴇʀᴍɪssɪᴏɴs ᴛᴏ ꜰᴜᴄᴛɪᴏɴ ᴘʀᴏᴘᴇʀʟʏ.
 
-          ᴏᴡɴᴇʀ: [ᴍsᴅ](https://t.me/my_dear_lightbright)
+          ᴏᴡɴᴇʀ: [ᴍsᴅ](https://t.me/my_dear_lightbright) .
 
- .""",
+ """,
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
