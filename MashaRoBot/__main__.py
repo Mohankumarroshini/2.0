@@ -104,7 +104,14 @@ HELP_STRINGS = """
 `ʜɪ.. ɪ'ᴍ` [ATHENA](https://telegra.ph/file/adcb4a156fd0dbf833d0b.jpg) 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
-MASHA_IMG = "https://telegra.ph/file/adcb4a156fd0dbf833d0b.jpg"
+WOLFX_IMG = (
+      "https://telegra.ph/file/9332b113ddb8555bf6ffe.jpg",
+      "https://telegra.ph/file/fbc20e462231564a7407f.jpg",
+      "https://telegra.ph/file/45df1a2dcf2e385d5cb7b.jpg",
+      "https://telegra.ph/file/89e069ddc5c581a3501ef.jpg",
+     )
+
+TEXXT = ( "Heya :) PM me if you have any questions on how to use me!", , "*Hey* [{}](tg://settings/), *Athenaprobot Came for you! Since:* `{}` )
 
 DONATE_STRING = """No need.. I'm rich"""
 
@@ -214,17 +221,29 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(buttons),
                 parse_mode=ParseMode.MARKDOWN,
                 timeout=60,
-                )
-            )
+             )
 
     else:
-        update.effective_message.reply_text(
-            "Heya :) PM me if you have any questions on how to use me!".format(
+        first_name = update.effective_user.first_name
+        update.effective_message.reply_photo(
+                random.choice(WOLFX_IMG), caption=random.choice(TEXXT).format(
+                first_name,
                 uptime
             ),
-            parse_mode=ParseMode.HTML,
+            parse_mode=ParseMode.MARKDOWN,
+            reply_markup=InlineKeyboardMarkup(
+                [
+                  [                  
+                       InlineKeyboardButton(
+                             text="👥 Support",
+                             url=f"https://t.me/My_Dear_lightbright"),
+                       InlineKeyboardButton(
+                             text="📢 Updates",
+                             url="https://t.me/My_Dear_lightbright")
+                     ] 
+                ]
+            ),
         )
-
 
 def error_handler(update, context):
     """Log the error and send a telegram message to notify the developer."""
@@ -750,3 +769,4 @@ if __name__ == "__main__":
     telethn.start(bot_token=TOKEN)
     pbot.start()
     main()
+
