@@ -104,7 +104,14 @@ HELP_STRINGS = """
 `ʜɪ.. ɪ'ᴍ` [ATHENA](https://telegra.ph/file/adcb4a156fd0dbf833d0b.jpg) 
 `ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴꜱ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ꜱᴘᴇᴄɪꜰɪᴄ ᴍᴏᴅᴜʟᴇꜱ..`"""
 
-MASHA_IMG = "https://telegra.ph/file/adcb4a156fd0dbf833d0b.jpg"
+WOLFX_IMG = (
+      "https://telegra.ph/file/9332b113ddb8555bf6ffe.jpg",
+      "https://telegra.ph/file/fbc20e462231564a7407f.jpg",
+      "https://telegra.ph/file/45df1a2dcf2e385d5cb7b.jpg",
+      "https://telegra.ph/file/89e069ddc5c581a3501ef.jpg",
+     )
+
+TEXXT = ( "Heya :) PM me if you have any questions on how to use me!", )
 
 DONATE_STRING = """No need.. I'm rich"""
 
@@ -217,12 +224,12 @@ def start(update: Update, context: CallbackContext):
              )
 
     else:
-        update.effective_message.reply_text(
-            "Heya :) PM me if you have any questions on how to use me!".format(
+        first_name = update.effective_user.first_name
+        update.effective_message.reply_photo(
+                random.choice(WOLFX_IMG), caption=random.choice(TEXXT).format(
+                first_name,
                 uptime
             ),
-            parse_mode=ParseMode.HTML,
-        )
 
 
 def error_handler(update, context):
