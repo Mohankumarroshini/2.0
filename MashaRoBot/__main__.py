@@ -295,15 +295,27 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text="""  I'm *𝘈𝘵𝘩𝘦𝘯𝘢 𝘉𝘰𝘵*, a powerful group management bot built to help you manage your group easily.
-                 ❍ I can restrict users.
-                 ❍ I can greet users with customizable welcome messages and even set a group's rules.
-                 ❍ I have an advanced anti-flood system.
-                 ❍ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-                 ❍ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-                 ❍ I check for admins' permissions before executing any command and more stuffs
-                 Here is the [My Owner](https://t.me/My_Dear_lightbright)
-                 If you have any question about Athena, let us know at [Mastrosupport](https://t.me/Mastro_support) .""",
+            text="""  ʜɪ ᴀɢᴀɪɴ!
+
+✦ ɪ'ᴀᴍ ᴀ ꜰᴜʟʟ-ꜰʟᴇᴅɢᴇᴅ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀsɪʟʏ.
+                    
+✦ ɪ ᴄᴀɴ ᴅᴏ ʟᴏᴛ ᴏꜰ sᴛᴜꜰꜰ, sᴏᴍᴇ ᴏꜰ ᴛʜᴇᴍ ᴀʀᴇ:
+                    
+✦ ʀᴇsᴛʀɪᴄᴛ ᴜsᴇʀs ᴡʜᴏ ꜰʟᴏᴏᴅ ʏᴏᴜʀ ᴄʜᴀᴛ ᴜsɪɴɢ ᴍʏ ᴀɴᴛɪ-ꜰʟᴏᴏᴅ ᴍᴏᴅᴜʟᴇ.
+                    
+✦ sᴀꜰᴇɢᴜᴀʀᴅ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴡɪᴛʜ ᴛʜᴇ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ʜᴀɴᴅʏ ᴀɴᴛɪsᴘᴀᴍ sʏsᴛᴇᴍ.
+                    
+✦ ɢʀᴇᴇᴛ ᴜsᴇʀs ᴡɪᴛʜ ᴍᴇᴅɪᴀ + ᴛᴇxᴛ ᴀɴᴅ ʙᴜᴛᴛᴏɴs, ᴡɪᴛʜ ᴘʀᴏᴘᴇʀ ꜰᴏʀᴍᴀᴛᴛɪɴɢ.
+                    
+✦ sᴀᴠᴇ ɴᴏᴛᴇs ᴀɴᴅ ꜰɪʟᴛᴇʀs ᴡɪᴛʜ ᴘʀᴏᴘᴇʀ ꜰᴏʀᴍᴀᴛᴛɪɴɢ ᴀɴᴅ ʀᴇᴘʟʏ ᴍᴀʀᴋᴜᴘ.
+                    
+✦ ɪ ᴀᴍ ꜰᴜʟʟ ᴛʀᴜsᴛᴇᴅ ʙᴏᴛ ᴡɪᴛʜ ᴛᴏᴜɢʜ ᴘʀᴏᴛᴇᴄᴛɪᴏɴ ᴏꜰ ʏᴏᴜʀ ʟᴏᴠᴇʟʏ ɢʀᴏᴜᴘ.
+               
+✦ ɴᴏᴛᴇ: ɪ ɴᴇᴇᴅ ᴛᴏ ʙᴇ ᴘʀᴏᴍᴏᴛᴇᴅ ᴡɪᴛʜ ᴘʀᴏᴘᴇʀ ᴀᴅᴍɪɴ ᴘᴇʀᴍɪssɪᴏɴs ᴛᴏ ꜰᴜᴄᴛɪᴏɴ ᴘʀᴏᴘᴇʀʟʏ.
+
+          ᴏᴡɴᴇʀ: [ᴍsᴅ](https://t.me/my_dear_lightbright)
+
+ .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
