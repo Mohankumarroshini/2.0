@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pyrogram.types import Message as message
-from nandhabot import bot
+from MashaRoBot import bot
 
 
 @bot.on_message(filters.command("write"))
@@ -15,4 +15,4 @@ async def handwriting(_, message):
     )
     hand = "https://apis.xditya.me/write?text=" + name
     await m.edit("» Uploading...")
-    await message.reply_photo(hand, caption="🖊 Written by @VegetaRobot")
+    await message.reply_photo(hand, caption="🖊 Written by @Athena_ProBot")
