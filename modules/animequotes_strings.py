@@ -62,7 +62,7 @@ QUOTES_IMG = (
       "https://i.imgur.com/0qK7TAN.jpg", 
       "https://i.imgur.com/zvcxSOX.jpg", 
       "https://i.imgur.com/FO7bApW.jpg", 
-      "https://i.imgur.com/KK06gwg.jpg", 
-      "https://i.imgur.com/6lG4tsO.jpg"
+      "https://i.imgur.com/KK06gwg.jpg"
+     
       
       ) 
