@@ -1,5 +1,5 @@
 from MashaRoBot import pgram as bot, SUPPORT_CHAT
-from pyrogram import filter
+from pyrogram import filters
 import random
 from datetime import datetime
 from pyrogram.types import *
