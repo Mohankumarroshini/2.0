@@ -94,4 +94,4 @@ Pillow
 glitch_this
 NumPy
 cloudmersive_virus_api_client==3.0.1
-pyrogram==1.4.16
+
