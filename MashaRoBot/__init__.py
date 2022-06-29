@@ -11,7 +11,11 @@ from redis import StrictRedis
 from pyrogram import Client, errors
 from telethon import TelegramClient
 
-StartTime = time.time()
+StartTime = time.time() 
+CMD_LIST = {} 
+CMD_HELP = {}
+LOAD_PLUG = {}
+BOT_VERSION = "1.1.0"
 
 # enable logging
 logging.basicConfig(
