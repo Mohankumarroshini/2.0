@@ -1,5 +1,5 @@
-from VegetaRobot import pgram as bot, SUPPORT_CHAT
-from pyrogram import filters
+from MashaRoBot import pgram as bot, SUPPORT_CHAT
+from pyrogram import filter
 import random
 from datetime import datetime
 from pyrogram.types import *
