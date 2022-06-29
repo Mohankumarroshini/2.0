@@ -5,15 +5,17 @@ import requests
 from telegram import ParseMode, Update
 from telegram.ext import CallbackContext, run_async
 
-from MashaRoBot import StartTime, dispatcher
-from MashaRoBot.modules.helper_funcs.chat_status import sudo_plus
-from MashaRoBot.modules.disable import DisableAbleCommandHandler
+from VegetaRobot import StartTime, dispatcher
+from VegetaRobot.modules.helper_funcs.chat_status import sudo_plus
+from VegetaRobot.modules.disable import DisableAbleCommandHandler
+
+PING_IMG="https://telegra.ph/file/7f09ce39158cf595779b1.jpg"
 
 sites_list = {
     "Telegram": "https://api.telegram.org",
     "Kaizoku": "https://animekaizoku.com",
     "Kayo": "https://animekayo.com",
-    "Jikan": "https://api.jikan.moe/v3",
+    "Jikan": "https://api.jikan.moe/v3"
 }
 
 
@@ -69,7 +71,6 @@ def ping_func(to_ping: List[str]) -> List[str]:
 
 
 @run_async
-@sudo_plus
 def ping(update: Update, context: CallbackContext):
     msg = update.effective_message
 
@@ -79,12 +80,13 @@ def ping(update: Update, context: CallbackContext):
     telegram_ping = str(round((end_time - start_time) * 1000, 3)) + " ms"
     uptime = get_readable_time((time.time() - StartTime))
 
-    message.edit_text(
-        "PONG!!\n"
+    update.effective_message.reply_photo(
+        PING_IMG,caption="PONG!!\n"
         "<b>Time Taken:</b> <code>{}</code>\n"
         "<b>Service uptime:</b> <code>{}</code>".format(telegram_ping, uptime),
-        parse_mode=ParseMode.HTML,
-    )
+        parse_mode=ParseMode.HTML)
+    
+    message.delete()
 
 
 @run_async
@@ -92,16 +94,15 @@ def ping(update: Update, context: CallbackContext):
 def pingall(update: Update, context: CallbackContext):
     to_ping = ["Kaizoku", "Kayo", "Telegram", "Jikan"]
     pinged_list = ping_func(to_ping)
-    pinged_list.insert(2, "")
+    pinged_list.insert(2, '')
     uptime = get_readable_time((time.time() - StartTime))
 
     reply_msg = "⏱Ping results are:\n"
     reply_msg += "\n".join(pinged_list)
-    reply_msg += "\n<b>Service uptime:</b> <code>{}</code>".format(uptime)
+    reply_msg += '\n<b>Service uptime:</b> <code>{}</code>'.format(uptime)
 
     update.effective_message.reply_text(
-        reply_msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
-    )
+        reply_msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True)
 
 
 PING_HANDLER = DisableAbleCommandHandler("ping", ping)
