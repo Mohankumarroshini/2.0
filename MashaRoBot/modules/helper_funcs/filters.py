@@ -2,7 +2,7 @@
 from telegram import Message
 from telegram.ext import MessageFilter
 
-from VegetaRobot import DEMONS, DRAGONS, DEV_USERS
+from MashaRoBot import DEMONS, DRAGONS, DEV_USERS
 
 
 class CustomFilters(object):
